@@ -1,0 +1,36 @@
+.contacto {
+    background: @gradiente-contacto;
+    padding: 20px;
+    border-radius: @border-radius-card;
+    margin: 30px 0;
+    border: 2px solid @marron-borde;
+
+    p {
+        font-size: @tamano-base;
+        margin: 15px 0;
+        color: @marron-profundo;
+    }
+
+    strong {
+        color: @marron-oscuro;
+    }
+}
+
+.boton-contacto {
+    background: @gradiente-boton;
+    color: @color-crema;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: @border-radius-btn;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: @tamano-base;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px @sombra-color;
+
+    &:hover {
+        background: @gradiente-boton-hover;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px @sombra-color-hover;
+    }
+}
