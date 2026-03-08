@@ -26,7 +26,7 @@ function obtenerHtmlFiles(){
 
 export default defineConfig(
     {
-        base: "/VitePortafolio",
+        base: "/viteportafolio",
         appType: 'mpa',
         build: {
             rollupOptions: {
